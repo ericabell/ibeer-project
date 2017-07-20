@@ -109,6 +109,7 @@ img{
         TODO:
         - Flexbox - Create general spacing between nav links
     */
+    flex-basis: 10%;
 }
 #main-navigation #logo{
     margin-right: 400px;
@@ -129,6 +130,8 @@ main{
         - Use relative positioning to bump this upward
     */
     flex-basis: 50%;
+    position: relative;
+    top: -50px;
 }
 aside{
     padding: 20px;
@@ -140,6 +143,8 @@ aside{
         - Use relative positioning to bump this upward
     */
     flex-basis: 25%;
+    position: relative;
+    top: -50px;
 }
 aside h3{
     text-align: center;
@@ -180,6 +185,9 @@ article img{
         - Float article images to the right
         and match sizes and spacing to the mockup
     */
+    float: right;
+    width: 200px;
+    height: 200px;
 }
 article footer p{
     /*
@@ -187,6 +195,13 @@ article footer p{
         - Style the article footer
         HINT: Look to the article header;
     */
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    display: block;
+    color: #666;
 }
 #site-footer{
 
@@ -195,4 +210,7 @@ article footer p{
         TODO:
         - Style the site footer
     */
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
 }
