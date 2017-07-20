@@ -47,6 +47,7 @@ img{
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 #site-header{
     /*
@@ -134,7 +135,7 @@ main{
     flex-basis: 50%;
     position: relative;
     top: -50px;
-    left: 80px;
+    /*left: 80px;*/
 }
 aside{
     padding: 20px;
@@ -148,7 +149,7 @@ aside{
     flex-basis: 25%;
     position: relative;
     top: -50px;
-    left: 80px;
+    /*left: 80px;*/
 }
 aside h3{
     text-align: center;
