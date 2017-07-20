@@ -45,12 +45,15 @@ img{
         the major page sections
     */
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 #site-header{
     /*
         TODO
         - Flexbox property here
     */
+    flex-basis: 100%;
 
 }
 #site-header div{
@@ -125,6 +128,7 @@ main{
         - Flexbox: Set the starting width of this element
         - Use relative positioning to bump this upward
     */
+    flex-basis: 50%;
 }
 aside{
     padding: 20px;
@@ -135,6 +139,7 @@ aside{
         - Flexbox: Set the starting width of this element
         - Use relative positioning to bump this upward
     */
+    flex-basis: 25%;
 }
 aside h3{
     text-align: center;
