@@ -113,12 +113,14 @@ img{
 }
 #main-navigation #logo{
     margin-right: 400px;
+    margin-left: 20px;
 
     /*
         TODO:
         - Flexbox - The logo needs to take up more space
         that the other links
     */
+    flex-grow: 2;
 }
 main{
     padding: 20px;
@@ -132,6 +134,7 @@ main{
     flex-basis: 50%;
     position: relative;
     top: -50px;
+    left: 80px;
 }
 aside{
     padding: 20px;
@@ -145,6 +148,7 @@ aside{
     flex-basis: 25%;
     position: relative;
     top: -50px;
+    left: 80px;
 }
 aside h3{
     text-align: center;
@@ -163,6 +167,7 @@ article{
     padding: 20px;
     margin-bottom: 20px;
 }
+
 article h2{
     line-height: 1em;
     font-weight: bold;
